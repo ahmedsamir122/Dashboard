@@ -1,0 +1,41 @@
+.main {
+  /* border: 1px solid red; */
+}
+.title {
+  color: grey;
+  margin-bottom: 16px;
+}
+.imgUser {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.infoCon {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+span {
+  padding: 0;
+}
+.info {
+  color: grey;
+  margin-bottom: 5px;
+  font-size: 26px;
+}
+.info span {
+  color: grey;
+  margin-bottom: 5px;
+  font-size: 16px;
+  padding: 0;
+}
+
+.edit {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: aquamarine;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 0 7px 0 0;
+}

@@ -1,0 +1,14 @@
+.main {
+  padding: 16px;
+}
+.middle {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.titleBottom {
+  margin-bottom: 10px;
+}

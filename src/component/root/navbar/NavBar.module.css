@@ -1,0 +1,66 @@
+.nav {
+  height: 50px;
+  border-bottom: 1.5px solid rgb(204, 195, 195);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+ul {
+  list-style: none;
+}
+.input {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+input {
+  padding: 5px;
+  padding-right: 22px;
+}
+input:focus,
+input:active {
+  outline: none;
+}
+
+.SearchIcon {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.list {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+
+.language {
+  display: flex;
+  align-items: center;
+}
+.language span {
+  padding-left: 0;
+}
+
+.widcontainer {
+  /* display: flex;
+  align-items: center; */
+  position: relative;
+}
+.widget {
+  position: absolute;
+  right: 15%;
+  top: 15%;
+  transform: translate(50%, -50%);
+  color: white;
+  background-color: red;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
